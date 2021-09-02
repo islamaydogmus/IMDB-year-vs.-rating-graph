@@ -18,7 +18,7 @@ def get_ratings():
     ====================================================
     """
     # Requesting the page
-    start_list = list(np.arange(0,2)*100+1) # list = [1, 101, 201, 301, 401, 501, 601, 701, 801, 901]
+    start_list = list(np.arange(0,10)*100+1) # list = [1, 101, 201, 301, 401, 501, 601, 701, 801, 901]
 
     headers = {"user-agent":"Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.18"}
     responds = []
